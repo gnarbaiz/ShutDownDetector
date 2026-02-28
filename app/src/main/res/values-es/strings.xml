@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Monitor de Cortes de Energía</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_dashboard">Panel</string>
+    <string name="title_notifications">Notificaciones</string>
+
+    <!-- Main screen -->
+    <string name="app_title">Monitor de Cortes de Energía</string>
+    <string name="button_send_events">Enviar Eventos</string>
+    <string name="button_export_csv">Exportar CSV</string>
+    <string name="state_current">Estado Actual</string>
+    <string name="label_wifi">WiFi</string>
+    <string name="label_charging">Carga</string>
+    <string name="label_battery">Batería</string>
+    <string name="loading">Cargando…</string>
+    <string name="events_by_month">Eventos por Mes</string>
+    <string name="event_history_count">Historial de Eventos (%d)</string>
+    <string name="event_state">Estado: %s</string>
+    <string name="event_sent">✓ Enviado</string>
+    <string name="event_duration">Duración: %s</string>
+
+    <!-- Send/Export results -->
+    <string name="send_success">✅ %d eventos enviados exitosamente</string>
+    <string name="send_no_pending">ℹ️ No hay eventos pendientes</string>
+    <string name="send_error">❌ Error al enviar: %s</string>
+    <string name="export_success">✅ Exportado a: %s</string>
+    <string name="export_no_data">ℹ️ No hay eventos para exportar</string>
+    <string name="export_error">❌ Error al exportar: %s</string>
+    <string name="error_generic">❌ Error: %s</string>
+
+    <!-- Enum display names: WiFi -->
+    <string name="wifi_connected">Conectado</string>
+    <string name="wifi_disconnected">Desconectado</string>
+    <string name="wifi_unknown">Desconocido</string>
+
+    <!-- Enum display names: Charging -->
+    <string name="charging_charging">Cargando</string>
+    <string name="charging_not_charging">No cargando</string>
+    <string name="charging_unknown">Desconocido</string>
+
+    <!-- Enum display names: Power state -->
+    <string name="power_normal">Normal</string>
+    <string name="power_possible_outage">Posible corte</string>
+    <string name="power_power_restored">Energía restaurada</string>
+    <string name="power_unknown">Desconocido</string>
+
+    <!-- Notification (foreground service) -->
+    <string name="notification_channel_name">Monitoreo de energía</string>
+    <string name="notification_channel_description">Monitorea el estado de energía y WiFi</string>
+    <string name="notification_title">Monitoreo de energía activo</string>
+    <string name="notification_text">Detectando cambios en WiFi y carga de batería</string>
+    <string name="notification_outage_title">⚠️ Posible corte de energía</string>
+    <string name="notification_restored_title">✅ Energía restaurada</string>
+    <string name="notification_state_title">📊 Cambio de estado</string>
+    <string name="notification_state_text">Estado: %s</string>
+
+    <!-- Email -->
+    <string name="email_subject_outage">⚠️ Posible corte de energía detectado</string>
+    <string name="email_subject_restored">✅ Energía restaurada</string>
+    <string name="email_subject_event">📊 Evento de energía</string>
+    <string name="email_subject_summary">📊 Resumen de eventos de energía (%d eventos)</string>
+    <string name="email_body_event">Evento de energía detectado\n\nFecha y hora: %1$s\nEstado WiFi: %2$s\nEstado de carga: %3$s\nEstado inferido: %4$s\nNivel de batería: %5$d%%\nDuración del corte: %6$s\n\n---\nMonitor de Cortes de Energía</string>
+    <string name="email_body_summary_header">Resumen de eventos de energía\n\nTotal de eventos: %d\n\n</string>
+    <string name="email_body_summary_line">[%1$s] %2$s - WiFi: %3$s, Carga: %4$s, Batería: %5$d%%\n</string>
+    <string name="email_body_footer">\n---\nMonitor de Cortes de Energía</string>
+    <string name="duration_n_a">N/A</string>
+    <string name="duration_h_m">%dh %dm</string>
+    <string name="duration_m">%dm</string>
+    <string name="no_email_app">No hay app de correo instalada</string>
+</resources>

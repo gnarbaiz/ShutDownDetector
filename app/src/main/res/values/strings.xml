@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Power Outage Monitor</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- Main screen -->
+    <string name="app_title">Power Outage Monitor</string>
+    <string name="button_send_events">Send Events</string>
+    <string name="button_export_csv">Export CSV</string>
+    <string name="state_current">Current State</string>
+    <string name="label_wifi">WiFi</string>
+    <string name="label_charging">Charging</string>
+    <string name="label_battery">Battery</string>
+    <string name="loading">Loading…</string>
+    <string name="events_by_month">Events by Month</string>
+    <string name="event_history_count">Event History (%d)</string>
+    <string name="event_state">State: %s</string>
+    <string name="event_sent">✓ Sent</string>
+    <string name="event_duration">Duration: %s</string>
+
+    <!-- Send/Export results (format args used from ViewModel) -->
+    <string name="send_success">✅ %d events sent successfully</string>
+    <string name="send_no_pending">ℹ️ No pending events</string>
+    <string name="send_error">❌ Error sending: %s</string>
+    <string name="export_success">✅ Exported to: %s</string>
+    <string name="export_no_data">ℹ️ No events to export</string>
+    <string name="export_error">❌ Export error: %s</string>
+    <string name="error_generic">❌ Error: %s</string>
+
+    <!-- Enum display names: WiFi -->
+    <string name="wifi_connected">Connected</string>
+    <string name="wifi_disconnected">Disconnected</string>
+    <string name="wifi_unknown">Unknown</string>
+
+    <!-- Enum display names: Charging -->
+    <string name="charging_charging">Charging</string>
+    <string name="charging_not_charging">Not charging</string>
+    <string name="charging_unknown">Unknown</string>
+
+    <!-- Enum display names: Power state -->
+    <string name="power_normal">Normal</string>
+    <string name="power_possible_outage">Possible outage</string>
+    <string name="power_power_restored">Power restored</string>
+    <string name="power_unknown">Unknown</string>
+
+    <!-- Notification (foreground service) -->
+    <string name="notification_channel_name">Power monitoring</string>
+    <string name="notification_channel_description">Monitors power and WiFi status</string>
+    <string name="notification_title">Power monitoring active</string>
+    <string name="notification_text">Detecting WiFi and battery charging changes</string>
+    <string name="notification_outage_title">⚠️ Possible power outage</string>
+    <string name="notification_restored_title">✅ Power restored</string>
+    <string name="notification_state_title">📊 State change</string>
+    <string name="notification_state_text">State: %s</string>
+
+    <!-- Email -->
+    <string name="email_subject_outage">⚠️ Possible power outage detected</string>
+    <string name="email_subject_restored">✅ Power restored</string>
+    <string name="email_subject_event">📊 Power event</string>
+    <string name="email_subject_summary">📊 Power events summary (%d events)</string>
+    <string name="email_body_event">Power event detected\n\nDate and time: %1$s\nWiFi state: %2$s\nCharging state: %3$s\nInferred state: %4$s\nBattery level: %5$d%%\nOutage duration: %6$s\n\n---\nPower Outage Monitor App</string>
+    <string name="email_body_summary_header">Power events summary\n\nTotal events: %d\n\n</string>
+    <string name="email_body_summary_line">[%1$s] %2$s - WiFi: %3$s, Charging: %4$s, Battery: %5$d%%\n</string>
+    <string name="email_body_footer">\n---\nPower Outage Monitor App</string>
+    <string name="duration_n_a">N/A</string>
+    <string name="duration_h_m">%dh %dm</string>
+    <string name="duration_m">%dm</string>
+    <string name="no_email_app">No email app installed</string>
+</resources>
